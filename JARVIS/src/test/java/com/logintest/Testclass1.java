@@ -19,6 +19,7 @@ public class Testclass1 extends BaseTest1 {
 	@Test(priority = 1)
 	public void ClickonLoginwithPassword() throws InterruptedException{
 		 loginpage.ClickOnLoginWithPasswordLink();	
+		 System.out.println("000000");
 	}
 	@Test(priority = 2)
 	public void VerifyLoginFnctionality() throws InterruptedException, IOException{
